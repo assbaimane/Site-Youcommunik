@@ -58,7 +58,7 @@ nav ul li:last-of-type::before{
     background-image:url("../img/contact-icon.png");
 }
 
-/*----- BANNIERE PAGE PACK -----*/
+/*------ BANNIERE PAGE PACK ------*/
 #HeaderPack{
     display: flex;
     justify-content: center;
@@ -71,18 +71,18 @@ nav ul li:last-of-type::before{
     margin-left: 15%;
 }
 
-/*----- SECTION ECLOSION -----*/
-#PackEclosion{
+/*----- SECTION  DIV1 COMMUNE -----*/
+#PackEclosion, #PackEvolution{
     display: flex;
     padding: 3% 8%;
     height: 40vh;
 }
-#PackEclosion img{
+#PackEclosion img, #PackEvolution img{
     position: relative;
     height: 25vh;
     top:40%;
 }
-#PackEclosion h2{
+#PackEclosion h2, #PackEvolution h2{
     margin-left: 10%;
     font-size: xx-large;
     color: white;
@@ -90,11 +90,13 @@ nav ul li:last-of-type::before{
     padding: 2% 8%;
     background-color: #344D5C;
 }
-#PackEclosion p{
+#PackEclosion p, #PackEvolution p{
     margin-left: 20%;
     font-size:small;
 }
-#PackEclosionBottom{
+
+/*---- SECTION BOTTOM FORMATAGE ----*/
+#PackEclosionBottom, #PackEvolutionBottom{
     height: 20vh;
     padding: 4% 8%;
     display: flex;
@@ -103,19 +105,22 @@ nav ul li:last-of-type::before{
     font-size: small;
     background-color: #EAE3D6;
 }
-#PackEclosionBottom p{
+#PackEclosionBottom p, #PackEvolutionBottom p, #PackEvolutionLast p{
     display: flex;
+    justify-content: center;
     align-items: flex-end;
 } 
-#PackEclosionBottom p::before{
+#PackEclosionBottom p::before, #PackEvolutionBottom p::before, #PackEvolutionLast p::before{
     position: relative;
     top:-5vh;
-    left:50%;;
+    left:50%;
     content: "";
     background-size: 10vh 10vh;
     width:10vh; 
     height:10vh;
 }
+
+/*--- SECTION ECLOSION BOTTOM ITEMS ---*/
 #PackEclosionBottom p:first-of-type::before{
     background-image:url("../img/Logo-logo.png");
 }
@@ -126,5 +131,31 @@ nav ul li:last-of-type::before{
     background-image:url("../img/site-single-page.png");
 }
 #PackEclosionBottom p:last-of-type::before{
+    background-image:url("../img/carte-visite.png");
+}
+
+/*--- SECTION EVOLUTION BOTTOM ITEMS ---*/
+
+#PackEvolutionBottom p:first-of-type::before{
+    background-image:url("../img/Logo-logo.png");
+}
+#PackEvolutionBottom p:nth-of-type(2)::before{
+    background-image:url("../img/icon-charte-graphic.png");
+}
+#PackEvolutionBottom p:nth-of-type(3)::before{
+    background-image:url("../img/site-vitrine.png");
+}
+#PackEvolutionBottom p:last-of-type::before{
+    background-image:url("../img/reseaux-sociaux.png");
+}
+#PackEvolutionLast{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    font-size: small;
+    text-align: center;
+    background-color: #EAE3D6;
+}
+#PackEvolutionLast p::before{
     background-image:url("../img/carte-visite.png");
 }
