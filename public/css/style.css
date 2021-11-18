@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    font-family: Ubuntu;
+    color: rgba(50,50,50);
 }
 /*----- BARRE DE NAVIGATION -----*/
 nav{
