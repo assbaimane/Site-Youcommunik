@@ -87,6 +87,7 @@ nav ul li:last-of-type::before{
 #PackEclosion h2, #PackEvolution h2, #PackEnvol h2{
     margin-left: 10%;
     font-size: xx-large;
+    font-weight: lighter;
     color: white;
     width: min-content;
     padding: 2% 8%;
