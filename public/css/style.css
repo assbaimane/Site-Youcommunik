@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end ;
+    height: 15vh;
+    background-color: black;
+}
+nav img{
+    position: absolute;
+    left: 2%;
+    height: 6vh;
+}
+nav ul{
+    margin-right: 7%;
+    color: white;
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+}
+nav ul li{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: min-content;
+    font-size:xx-small;
+    margin: 5%;
+    top:5vh;
+}
+nav ul li::before{    
+    content: "";
+    position: absolute;
+    top: -8vh;
+    background-size: 8vh 8vh;
+    width:8vh; 
+    height: 8vh;
+}
+nav ul li:first-of-type::before{
+    background-image:url("../img/home-icon.png");
+}
+nav ul li:nth-of-type(2)::before{
+    background-image:url("../img/packages-icon.png");
+}
+nav ul li:nth-of-type(3)::before{
+    background-image:url("../img/outils-icon.png");
+}
+nav ul li:nth-of-type(4)::before{
+    background-image:url("../img/projets-icon.png");
+}
+nav ul li:nth-of-type(5)::before{
+    background-image:url("../img/temoignages-icon.png");
+}
+nav ul li:last-of-type::before{
+    background-image:url("../img/contact-icon.png");
+}
+
