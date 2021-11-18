@@ -99,7 +99,7 @@ nav ul li:last-of-type::before{
 }
 
 /*---- BANNIERE FIN DE SECTION ----*/
-#PackEclosionBottom, #PackEvolutionBottom, #PackEvolutionLast{
+#PackEclosionBottom, #PackEvolutionBottom, #PackEvolutionLast, #PackEnvolBottom{
     height: 22vh;
     display: flex;
     align-items: center;
@@ -107,55 +107,16 @@ nav ul li:last-of-type::before{
     font-size: small;
     background-color: #EAE3D6;
 }
-#PackEclosionBottom>div, #PackEvolutionBottom>div, #PackEvolutionLast>div {
+#PackEclosionBottom>div, #PackEvolutionBottom>div, #PackEvolutionLast>div, #PackEnvolBottom>div {
     width:20%;
     display: flex;
     justify-content: center;
 }
-#PackEclosionBottom>div>div, #PackEvolutionBottom>div>div, #PackEvolutionLast>div>div{
+#PackEclosionBottom>div>div, #PackEvolutionBottom>div>div, #PackEvolutionLast>div>div, #PackEnvolBottom>div>div{
     text-align: center;
 }
-#PackEclosionBottom img, #PackEvolutionBottom img, #PackEvolutionLast img{
+#PackEclosionBottom img, #PackEvolutionBottom img, #PackEvolutionLast img, #PackEnvolBottom img{
     height:10vh;
-}
-
-/*---- SECTION BOTTOM FORMATAGE ----*/
-#PackEnvolBottom{
-    height: 15vh;
-    padding: 4% ;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: small;
-    background-color: #EAE3D6;
-}
-#PackEnvolBottom p{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-} 
-#PackEnvolBottom p::before{
-    position: relative;
-    top:-5vh;
-    left:50%;
-    content: "";
-    background-size: 10vh 10vh;
-    width:10vh; 
-    height:10vh;
-}
-
-/*--- SECTION ENVOL BOTTOM ITEMS ---*/
-#PackEnvolBottom p:first-of-type::before{
-    background-image:url("../img/icon-analyse-flux-web.png");
-}
-#PackEnvolBottom p:nth-of-type(2)::before{
-    background-image:url("../img/icon-campagne-facebook.png");
-}
-#PackEnvolBottom p:nth-of-type(3)::before{
-    background-image:url("../img/icon-campagne-adwords.png");
-}
-#PackEnvolBottom p:last-of-type::before{
-    background-image:url("../img/icon-campagne-e-mailing.png");
 }
 
 /*-------------- FOOTER --------------*/
