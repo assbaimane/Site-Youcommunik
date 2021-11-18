@@ -97,11 +97,11 @@ nav ul li:last-of-type::before{
 
 /*---- SECTION BOTTOM FORMATAGE ----*/
 #PackEclosionBottom, #PackEvolutionBottom, #PackEnvolBottom{
-    height: 20vh;
-    padding: 4% 8%;
+    height: 15vh;
+    padding: 4% ;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: small;
     background-color: #EAE3D6;
 }
@@ -172,4 +172,37 @@ nav ul li:last-of-type::before{
 }
 #PackEnvolBottom p:last-of-type::before{
     background-image:url("../img/icon-campagne-e-mailing.png");
+}
+
+/*-------------- FOOTER --------------*/
+footer{
+    padding-top: 5vh;
+    height: 25vh;
+    color: white;
+    font-size: bold;
+    background-color: rgba(50,50,50);
+}
+footer>div{
+    margin-left: 8%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer img{
+    height: 8vh;
+    margin: 2%;
+}
+#FooterPacks{
+    flex:3;
+}
+#FooterOutils{
+    flex:3;
+}
+#FooterSocialMedia{
+    flex:2;
+}
+footer>p:last-of-type{
+    font-size: x-small;
+    position: relative;
+    left:95%;
 }
