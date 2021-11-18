@@ -1,7 +1,7 @@
 body{
     margin: 0;
 }
-
+/*----- BARRE DE NAVIGATION -----*/
 nav{
     display: flex;
     align-items: center;
@@ -58,3 +58,15 @@ nav ul li:last-of-type::before{
     background-image:url("../img/contact-icon.png");
 }
 
+/*----- BANNIERE PAGE PACK -----*/
+#HeaderPack{
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 20vh;
+    padding: 5%;
+    background-color: #344D5C;
+}
+#HeaderPack div{
+    margin-left: 15%;
+}
