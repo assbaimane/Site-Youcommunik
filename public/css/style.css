@@ -206,6 +206,5 @@ footer img{
 }
 footer>p:last-of-type{
     font-size: x-small;
-    position: relative;
-    left:95%;
+    margin-left:95%;
 }
