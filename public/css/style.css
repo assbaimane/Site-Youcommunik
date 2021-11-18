@@ -73,7 +73,7 @@ nav ul li:last-of-type::before{
     margin-left: 15%;
 }
 
-/*----- SECTION  DIV1 COMMUNE -----*/
+/*---- SECTION PARTIE PRINCIPALE ----*/
 #PackEclosion, #PackEvolution, #PackEnvol{
     display: flex;
     padding: 3% 8%;
@@ -98,8 +98,8 @@ nav ul li:last-of-type::before{
     font-size:small;
 }
 
-/* Bottom Section Eclosion */
-#PackEclosionBottom{
+/*---- BANNIERE FIN DE SECTION ----*/
+#PackEclosionBottom, #PackEvolutionBottom, #PackEvolutionLast{
     height: 22vh;
     display: flex;
     align-items: center;
@@ -107,20 +107,20 @@ nav ul li:last-of-type::before{
     font-size: small;
     background-color: #EAE3D6;
 }
-#PackEclosionBottom>div{
+#PackEclosionBottom>div, #PackEvolutionBottom>div, #PackEvolutionLast>div {
     width:20%;
     display: flex;
     justify-content: center;
 }
-#PackEclosionBottom>div>div{
+#PackEclosionBottom>div>div, #PackEvolutionBottom>div>div, #PackEvolutionLast>div>div{
     text-align: center;
 }
-#PackEclosionBottom img{
+#PackEclosionBottom img, #PackEvolutionBottom img, #PackEvolutionLast img{
     height:10vh;
 }
 
 /*---- SECTION BOTTOM FORMATAGE ----*/
-#PackEvolutionBottom, #PackEnvolBottom{
+#PackEnvolBottom{
     height: 15vh;
     padding: 4% ;
     display: flex;
@@ -129,12 +129,12 @@ nav ul li:last-of-type::before{
     font-size: small;
     background-color: #EAE3D6;
 }
-#PackEvolutionBottom p, #PackEvolutionLast p, #PackEnvolBottom p{
+#PackEnvolBottom p{
     display: flex;
     justify-content: center;
     align-items: flex-end;
 } 
-#PackEvolutionBottom p::before, #PackEvolutionLast p::before, #PackEnvolBottom p::before{
+#PackEnvolBottom p::before{
     position: relative;
     top:-5vh;
     left:50%;
@@ -142,33 +142,6 @@ nav ul li:last-of-type::before{
     background-size: 10vh 10vh;
     width:10vh; 
     height:10vh;
-}
-
-
-/*--- SECTION EVOLUTION BOTTOM ITEMS ---*/
-
-#PackEvolutionBottom p:first-of-type::before{
-    background-image:url("../img/Logo-logo.png");
-}
-#PackEvolutionBottom p:nth-of-type(2)::before{
-    background-image:url("../img/icon-charte-graphic.png");
-}
-#PackEvolutionBottom p:nth-of-type(3)::before{
-    background-image:url("../img/site-vitrine.png");
-}
-#PackEvolutionBottom p:last-of-type::before{
-    background-image:url("../img/reseaux-sociaux.png");
-}
-#PackEvolutionLast{
-    display: flex;
-    justify-content: center;
-    height: 10vh;
-    font-size: small;
-    text-align: center;
-    background-color: #EAE3D6;
-}
-#PackEvolutionLast p::before{
-    background-image:url("../img/carte-visite.png");
 }
 
 /*--- SECTION ENVOL BOTTOM ITEMS ---*/
