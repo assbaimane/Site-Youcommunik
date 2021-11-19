@@ -1,3 +1,7 @@
 # Site-Youcommunik
 Reproduction du site Youcommunik 
-user-images.githubusercontent.com/52099008/142595450-943a1b76-2233-49ec-b264-fa5dcdaa2517.png
+|                            Site à reproduire                           |                                 Reproduction                                        |
+|------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| <img src="./screencapture-youcommunik-be-packages-2019-11-22-09_08_10.png" width="600"> | <img src="./YouCommunik_Reproduction.png" width="600"> |
+
+
