@@ -111,6 +111,7 @@ nav ul li:last-of-type::before{
     width:20%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 #PackEclosionBottom>div>div, #PackEvolutionBottom>div>div, #PackEvolutionLast>div>div, #PackEnvolBottom>div>div{
     text-align: center;
@@ -149,4 +150,92 @@ footer img{
 footer>p:last-of-type{
     font-size: x-small;
     margin-left:95%;
+}
+
+/*-----------------MEDIAQUERIES----------------*/
+@media screen and (max-width:499px){
+    nav{
+        height: 20vh;
+    }
+    nav div{
+        width: 100%;
+    }
+    nav img{
+        position: absolute;
+        top: 20px;
+        left:20px;
+        height:4vh;
+    }
+    nav ul{
+        display: flex;
+        flex-wrap: nowrap;
+        margin-right: 0px;
+        padding: 0px 5px 0px 5px;
+    }
+    nav ul li{
+        width:100%;
+        margin:0%;
+    }
+    nav ul li::before{    
+        top: -4vh;
+        background-size: 5vh 5vh;
+        width:5vh; 
+        height: 5vh;
+    }
+    h1{
+        font-size: large;
+    }
+    h2{
+        font-size:small;
+    }
+    #HeaderPack{
+        align-items: center;
+    }
+    #HeaderPack img{
+        height: 15vh;
+    }
+    #PackEclosion, #PackEvolution, #PackEnvol{
+        padding: 3% 8%;
+        height: 27vh;
+    }
+    #PackEclosion img, #PackEvolution img, #PackEnvol img{
+        height:10vh;
+    }
+    #PackEclosion h2, #PackEvolution h2, #PackEnvol h2{
+        font-size:medium;
+    }
+    #PackEclosion p, #PackEvolution p, #PackEnvol p{
+        font-size: x-small;;
+    }
+
+
+    #PackEclosionBottom, #PackEvolutionBottom, #PackEvolutionLast, #PackEnvolBottom{
+        height: 12vh;
+        font-size: x-small;
+    }
+    #PackEclosionBottom img, #PackEvolutionBottom img, #PackEvolutionLast img, #PackEnvolBottom img{
+        height:5vh;
+    }
+    #PackEvolutionLast{
+        margin-top: -10%;
+    }
+
+    footer{
+        padding-top: 2vh;
+        height: 15vh;
+    }
+    footer>div{
+        margin-left: 4%;
+        display: flex;
+        align-items: center;
+    }
+    footer img{
+        height: 4vh;
+    }
+    footer p{
+        font-size: smaller;
+    }
+    footer>p:last-of-type{
+        margin-left:90%;
+    }
 }
